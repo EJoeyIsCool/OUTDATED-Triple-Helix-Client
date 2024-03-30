@@ -26,6 +26,11 @@
     clientElement.style.maxHeight = '90vh';
     clientElement.style.flexWrap = 'wrap';
     clientElement.style.alignItems = 'flex-start';
+
+// Set font family to "Times New Roman" and font size to standardize appearance across all websites
+clientElement.style.fontFamily = '"Times New Roman", serif'; // Set to "Times New Roman"
+clientElement.style.fontSize = '16px'; // Example font size remains the same
+
   }
 
   // Function to initialize the default buttons
@@ -39,16 +44,16 @@
             type: 'Button',
             name: 'EXAMPLE BUTTON 1',
             action: function() {
-              javascript:alert("This is an example!")
+              alert("This is an example!"); // Removed 'javascript:' prefix
             }
           },
-      {
-        type: 'Button',
-        name: 'EXAMPLE BUTTON 2',
-        action: function() {
-          javascript:alert("This is an example!")
-        }
-      },
+          {
+            type: 'Button',
+            name: 'EXAMPLE BUTTON 2',
+            action: function() {
+              alert("This is an example!"); // Removed 'javascript:' prefix
+            }
+          },
         ]
       },
     ];
