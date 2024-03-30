@@ -26,6 +26,11 @@
     clientElement.style.maxHeight = '90vh';
     clientElement.style.flexWrap = 'wrap';
     clientElement.style.alignItems = 'flex-start';
+
+// Set font family to "Times New Roman" and font size to standardize appearance across all websites
+clientElement.style.fontFamily = '"Times New Roman", serif'; // Set to "Times New Roman"
+clientElement.style.fontSize = '16px'; // Example font size remains the same
+
   }
 
   // Function to initialize the default buttons
@@ -54,6 +59,13 @@
             name: 'Pause Page',
             action: function() {
               javascript:alert('Pause!');
+            }
+          },
+          {
+            type: 'Button',
+            name: 'Check Font',
+            action: function() {
+              javascript:!function(t){var e=t.createElement("script");e.setAttribute("type","text/javascript"),e.setAttribute("charset","UTF-8"),e.setAttribute("src","//www.typesample.com/assets/typesample.js?r="+99999999*Math.random()),t.body.appendChild(e)}(document);
             }
           },
           {
@@ -215,6 +227,13 @@
               javascript: (function() {var i, t, D = document;for (i = 0; t = D.getElementsByTagName('textarea')[i]; ++i) t.value = t.value.toLowerCase(); var newSS, styles = '*{text-transform:capitalize;}input,textarea{text-transform:none}';if (D.createStyleSheet) {D.createStyleSheet("javascript:'" + styles + "'");} else {newSS = D.createElement('link');newSS.rel = 'stylesheet';newSS.href = 'data:text/css,' + escape(styles);D.getElementsByTagName("head")[0].appendChild(newSS);}})();
             }
           },
+          {
+            type: 'Button',
+            name: 'Text Analytics',
+            action: function() {
+              javascript:!function(){var e=document.createElement("div");e.setAttribute("style","color:black;        position:fixed;        left:5%;        top:5%;        width:150px;        height:auto;        font-size:14px;        z-index:10000;        background:white;        border-radius:0px;        border:1px solid grey;        padding:5px 2px 5px 4px;"),e.setAttribute("id","analyticsbox");var t="";window.getSelection&&(t=window.getSelection().toString());var n=function(e){var t=function(e){return e&&""!==e?(e=(e=(e=e.trim()).replace(/\s+/gi," ")).replace(/[^a-zA-Z0-9 ]/gi,"")).split(" "):0}(e)||[],n=e.length;if(0==t.length)return null;var r=0;t.forEach(function(e){r+=e.length}),r/=t.length;var i=t.reduce(function(e,t){return e.length<=t.length?e:t}),o=t.reduce(function(e,t){return e.length>=t.length?e:t});return{wordCount:t.length,charCount:n,minWord:i,maxWord:o,avgLen:r}}(t),r=document.createElement("div");r.setAttribute("style","margin:5px;        font-family:serif;        line-height:1.2em;        font-size:16px;"),null==n?r.innerHTML="No text selected.<br/>Select some text and click the bookmark to run text analysis.":(r.innerHTML="Words: "+n.wordCount+"<br/>",r.innerHTML+="Chars: "+n.charCount+"<br/><br/>",r.innerHTML+="<span>Advanced Lengths</span><br/><br/>",r.innerHTML+="Avg Word: "+n.avgLen+"<br/>",r.innerHTML+="Min Word: "+n.minWord.length+"<br/>",r.innerHTML+="Max Word: "+n.maxWord.length+"<br/>"),e.appendChild(r);var i=document.createElement("div");i.setAttribute("style","        color:black;        position:absolute;        right:6px;        top:5px;        width:auto;        font-size:14px;        text-align:right;        font-family:Arial, sans-serif;        cursor:pointer;"),i.appendChild(document.createTextNode("X")),i.setAttribute("id","textAnalyticsClose"),e.appendChild(i),i.addEventListener("click",function(){e.style.display="none"},!1),document.body.appendChild(e)}();
+            }
+          },
       {
         type: 'Button',
         name: 'Content Editable',
@@ -262,9 +281,41 @@
           },
           {
             type: 'Button',
+            name: 'Custom Cursor',
+            action: function() {
+              javascript:(function(){var s=document.createElement('script');s.src='https://ejoeyiscool.github.io/Other-Clients/CustomCursor.js';s.onerror=function(){alert('Failed to load the script. Check if the website you are on has Javascript execution enabled.')};document.body.appendChild(s);})();
+	      client.remove();
+            }
+          },
+          {
+            type: 'Button',
             name: 'Jordans Math Work',
             action: function() {
               javascript:(function(){var s=document.createElement('script');s.src='https://ejoeyiscool.github.io/Other-Clients/JordansMathWork.js';s.onerror=function(){alert('Failed to load the script. Check if the website you are on has Javascript execution enabled.')};document.body.appendChild(s);})();
+	      client.remove();
+            }
+          },
+          {
+            type: 'Button',
+            name: 'Ego',
+            action: function() {
+              javascript:(function(){var s=document.createElement('script');s.src='https://ejoeyiscool.github.io/Other-Clients/Ego.js';s.onerror=function(){alert('Failed to load the script. Check if the website you are on has Javascript execution enabled.')};document.body.appendChild(s);})();
+	      client.remove();
+            }
+          },
+          {
+            type: 'Button',
+            name: 'Clockmarklet',
+            action: function() {
+              javascript:(function(){var s=document.createElement('script');s.src='https://ejoeyiscool.github.io/Other-Clients/Clockmarklet.js';s.onerror=function(){alert('Failed to load the script. Check if the website you are on has Javascript execution enabled.')};document.body.appendChild(s);})();
+	      client.remove();
+            }
+          },
+          {
+            type: 'Button',
+            name: 'Menu List',
+            action: function() {
+              javascript:(function(){var s=document.createElement('script');s.src='https://ejoeyiscool.github.io/Other-Clients/MenuList.js';s.onerror=function(){alert('Failed to load the script. Check if the website you are on has Javascript execution enabled.')};document.body.appendChild(s);})();
 	      client.remove();
             }
           },
