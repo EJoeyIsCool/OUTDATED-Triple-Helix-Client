@@ -4,9 +4,9 @@ My intuitive and customizable client. If you run into any errors, the site you a
 MY INVOLVEMENT: I used AI to code most of this, so be aware that almost none of this was coded by me. Also, all the bookmarklets were either made by AI or found online. I would like to credit everyone who posted these bookmarklets on GitHub. I am simply compiling them all for ease of access.
 
 LINKS: I used these tools:
-https://chat.openai.com/g/g-7YTZoVezM-bookmarklet-wizard (For making bookmarklets.)
-https://chat.openai.com/g/g-vewp26iCq-bookmarklet-tweaker (For tweaking existing bookmarklets.)
-https://ejoeyiscool.github.io/Bookmarklet-Converter (For replacing unnecessary % characters that browsers substitute certain characters with automatically.)
+https://chat.openai.com/g/g-7YTZoVezM-bookmarklet-wizard (For making bookmarklets),
+https://chat.openai.com/g/g-vewp26iCq-bookmarklet-tweaker (For tweaking existing bookmarklets),
+https://ejoeyiscool.github.io/Bookmarklet-Converter (For replacing unnecessary % characters that browsers substitute certain characters with automatically)
 
 CUSTOMIZABLE: My intention with this client is to publish something that even people with no coding knowledge can easily access and customize, and to spread more diversity in the sadly small number of clients that I could find. I made this to be a collection of any number of bookmarklets, so it will work for any number you may want to add. (The Example Client folder should help get you started.)
 
