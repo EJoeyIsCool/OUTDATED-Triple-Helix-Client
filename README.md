@@ -1,4 +1,11 @@
 # Triple-Helix-Client
+
+Archived because I coded a better menu. (https://github.com/EJoeyIsCool/EJR-Client)
+
+---
+---
+---
+
 My intuitive and customizable client. If you run into any errors, the site you are on may simply have Javascript execution disabled. If you just want to drag this into your bookmark bar for use, go to the TripleHelixClient.js section. If you want to explore more, check out the other sections.
 
 MY INVOLVEMENT: I used AI to code most of this, so be aware that almost none of this was coded by me. Also, all the bookmarklets were either made by AI or found online. I would like to credit everyone who posted these bookmarklets on GitHub. I am simply compiling them all for ease of access.
