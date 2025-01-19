@@ -3,7 +3,17 @@
 Archived because I coded a better menu. (https://github.com/EJoeyIsCool/EJR-Client)
 
 ---
+
 ---
+
+---
+
+---
+
+---
+
+---
+
 ---
 
 My intuitive and customizable client. If you run into any errors, the site you are on may simply have Javascript execution disabled. If you just want to drag this into your bookmark bar for use, go to the TripleHelixClient.js section. If you want to explore more, check out the other sections.
